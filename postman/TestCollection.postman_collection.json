@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "f8fadfd1-6dc6-43d7-8687-fca277324969",
+		"name": "TestCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38054169"
+	},
+	"item": [
+		{
+			"name": "GetAPI",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.restful-api.dev/objects/7",
+					"protocol": "https",
+					"host": [
+						"api",
+						"restful-api",
+						"dev"
+					],
+					"path": [
+						"objects",
+						"7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
