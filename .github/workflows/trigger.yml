@@ -34,6 +34,6 @@ jobs:
         run: ls -la
       - name: Run Collection
         run: |
-          newman run "C:/git/TestCollection.postman_collection.json"
+          newman run "postman/TestCollection.postman_collection.json"
           echo Add other actions to build,
           echo test, and deploy your project.
